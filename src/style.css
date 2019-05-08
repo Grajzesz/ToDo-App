@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.app{
+    min-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black dashed;
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    padding: 20px;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+ul{
+    margin: 20px;
+}
+li{
+    list-style: none;
+
+}
+.buttons{
+    display: flex;
+    font-size: 44px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* .add{
+    height: 50px;
+    width: 50px;
+
+}
+.remove{
+    height: 50px;
+    width: 50px;
+
+}
+.clear{
+    height: 50px;
+    width: 50px;
+
+} */
