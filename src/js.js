@@ -36,6 +36,7 @@ $(document).ready(function() {
 
     $('.remove').click(function(e) {
         e.preventDefault();
+        counter--;
         $('li')
             .last()
             .remove();
