@@ -9,6 +9,7 @@ $(document).ready(function() {
                 $('input[name=ListItem]').val() +
                 '</li>'
         );
+        $('input[name=ListItem]').val('');
     }
     function error(e) {
         $('ul').append(`<li>INPUT TASK</li>`);
@@ -21,6 +22,7 @@ $(document).ready(function() {
             error();
         } else {
             adding();
+
         }
     });
     $('input').keypress(function(e) {
